@@ -1,0 +1,11 @@
+<h1>Camp Grounds!</h1>
+<p>Welcome to yelpCamps Camp grounds</p>
+
+<% campgrounds.forEach(function(campground){%>
+   <div>
+       <%= campground.name %>
+       <img src="<%= campground.image %>">
+   </div>
+        
+    
+<% }); %>
